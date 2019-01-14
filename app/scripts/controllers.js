@@ -49,7 +49,7 @@ function togglePlay() {
 
 function play() {
   if (window.Stream) {
-    stream = new window.Stream('http://198.100.125.242:80/');
+    stream = new window.Stream('http://61.91.109.57:8000/index.html?sid=1');
     // Play audio
     stream.play();
   }
