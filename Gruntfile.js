@@ -43,7 +43,7 @@ module.exports = function (grunt) {
         constants: {
           ENV: {
             name: 'development',
-            apiEndpoint: 'http://dev.yoursite.com:10000/'
+            apiEndpoint: 'http://61.91.109.57:8000/'
           }
         }
       },
@@ -51,7 +51,7 @@ module.exports = function (grunt) {
         constants: {
           ENV: {
             name: 'production',
-            apiEndpoint: 'http://api.yoursite.com/'
+            apiEndpoint: 'http://61.91.109.57/'
           }
         }
       }
@@ -86,7 +86,7 @@ module.exports = function (grunt) {
       options: {
         port: 8000,
         // Change this to '0.0.0.0' to access the server from outside.
-        hostname: 'http://61.91.109.57'
+        hostname: 'http://61.91.109.57:8000/index.html?sid=1'
       },
       dist: {
         options: {
