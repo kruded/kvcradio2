@@ -51,7 +51,7 @@ angular.module('starter.services', [])
 
 .factory('streamService', function($http, $q){
 
-    var streamUrl = 'http://198.100.125.242:80/';
+    var streamUrl = 'http://61.91.109.57:8000/';
     var metadataUrl = streamUrl + '7.html';
     var contentRegex = /<body>(.*)<\/body>/;
     var itunesSearchUrl = 'https://itunes.apple.com/search?term=';
